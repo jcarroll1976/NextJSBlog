@@ -4,7 +4,10 @@ type Props = {}
 
 function Footer({}: Props) {
   return (
-    <div>Footer</div>
+    <div>
+        <div>&copy;2023 Daily Blogs. All Rights Reserved.</div>
+        <div></div>
+    </div>
   )
 }
 
