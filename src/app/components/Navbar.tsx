@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link'
 import React from 'react'
+import "./Navbar.css"
 
 const links = [
     {
@@ -39,13 +40,14 @@ type Props = {}
 
 function Navbar({}: Props) {
   return (
-    <div>
-        <Link href="/">Daily Blogs</Link>
-        <div>
+    <div className='nav-container'>
+        <Link href="/" className='nav-logo'>Daily Blogs</Link>
+        <div className='nav-links'>
             {links.map(link => (
-                <Link key={link.id} href={link.url}>{link.title}</Link>
+                <Link key={link.id} href={link.url} className='nav-link'>{link.title}</Link>
             ))}
             <button
+            className='nav-logout'
             onClick={() => {
                 console.log("logged out");
             }}
