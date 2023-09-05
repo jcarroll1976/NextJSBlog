@@ -1,2 +1,36 @@
-.contact {
+.contact-container {
+}
+
+.contact-title {
+    font-size: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.contact-imgContainer {
+    flex: 1;
+    height: 500px;
+    position: relative;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-input, .contact-textarea {
+    padding: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #bbb;
+    border: 3px solid #bbb;
 }
