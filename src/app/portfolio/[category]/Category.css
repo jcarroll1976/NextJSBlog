@@ -30,3 +30,11 @@
     gap: 20px;
     justify-content: center;
 }
+
+.content-title {
+    font-size: 50px;
+}
+
+.content-description {
+    font-size: 20px;
+}
