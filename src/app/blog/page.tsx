@@ -8,7 +8,7 @@ type Props = {}
 function Blog({}: Props) {
   return (
     <div className='blog-container'>
-      <Link href="/testId" className='container'>
+      <Link href="/blog/testId" className='container'>
         <div className='blog-imageContainer'>
           <Image
           src="https://images.pexels.com/photos/16353919/pexels-photo-16353919/free-photo-of-fontanna-di-trevi-in-rome-italy.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
@@ -23,7 +23,7 @@ function Blog({}: Props) {
         </div>
         </div>
       </Link>
-      <Link href="/testId" className='container'>
+      <Link href="/blog/testId" className='container'>
         <div className='blog-imageContainer'>
           <Image
           src="https://images.pexels.com/photos/16353919/pexels-photo-16353919/free-photo-of-fontanna-di-trevi-in-rome-italy.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
@@ -38,7 +38,7 @@ function Blog({}: Props) {
         </div>
         </div>
       </Link>
-      <Link href="/testId" className='container'>
+      <Link href="/blog/testId" className='container'>
         <div className='blog-imageContainer'>
           <Image
           src="https://images.pexels.com/photos/16353919/pexels-photo-16353919/free-photo-of-fontanna-di-trevi-in-rome-italy.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"

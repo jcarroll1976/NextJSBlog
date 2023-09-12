@@ -4,7 +4,13 @@ type Props = {}
 
 function BlogPost({}: Props) {
   return (
-    <div>BlogPost</div>
+    <div className='blogPost-container'>
+      <div className='blogPost-top'>
+        <div className='blogPost-info'>
+          
+        </div>
+      </div>
+    </div>
   )
 }
 
