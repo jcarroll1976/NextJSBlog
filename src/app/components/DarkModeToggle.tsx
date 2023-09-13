@@ -5,7 +5,11 @@ type Props = {}
 
 function DarkModeToggle({}: Props) {
   return (
-    <div>DarkModeToggle</div>
+    <div className="toggle-container">
+        <div className='toggle-icon'>🌙</div>
+        <div className='toggle-icon'>🔆</div>
+        <div className='toggle-ball'></div>
+    </div>
   )
 }
 

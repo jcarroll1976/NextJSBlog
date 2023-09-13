@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import "./Navbar.css"
+import DarkModeToggle from './DarkModeToggle'
 
 const links = [
     {
@@ -43,6 +44,7 @@ function Navbar({}: Props) {
     <div className='nav-container'>
         <Link href="/" className='nav-logo'>Daily Blogs</Link>
         <div className='nav-links'>
+            <DarkModeToggle />
             {links.map(link => (
                 <Link key={link.id} href={link.url} className='nav-link'>{link.title}</Link>
             ))}
